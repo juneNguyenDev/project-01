@@ -35,8 +35,9 @@ body {
 a {
   text-decoration: none;
 }
-/* Header */
+/* =============Header===*/
 .header {
+  position: relative;
   background: #e6f0ff;
   height: 100vh;
 }
@@ -105,4 +106,9 @@ a {
 .hero-cta {
   min-width: 170px;
   margin-top: 40px;
+}
+.hero-img {
+  position: absolute;
+  right: calc((100vw - 1110px) / 2 - 100px);
+  bottom: 0;
 }
